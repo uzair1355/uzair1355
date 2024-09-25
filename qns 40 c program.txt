@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+ char arr[5]="uzair";
+int i ;
+while(i<=4){
+    
+    printf("%c",arr[i]);
+    i++;
+    
+}
+  
+    return 0;
+}

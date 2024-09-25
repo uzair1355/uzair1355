@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+ int arr[4];
+ int i;
+ printf("enter the elememts of an array\n");
+ while(i <= 3)
+  {
+      scanf("%d",&arr[i]);
+      i++;
+      
+  }
+  
+printf("the elements in reverse order :\n");
+for(i=3;i>=0;i--){
+    printf("%d",arr[i]);
+    printf(" ");
+}
+    return 0;
+}

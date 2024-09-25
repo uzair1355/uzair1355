@@ -1,0 +1,26 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main() {
+ char arr[100];
+ 
+int i ,length=0;
+
+printf("enter the string:\n");
+scanf("%s",&arr);
+
+printf("the elements of this string are :\n");
+ 
+while(arr[i]!='\0'){
+     printf("%c",arr[i]);
+     printf(" ");
+    
+     
+     i++;
+     length++;
+     
+ }
+  printf("\n");
+ printf("%d is length of this string",(length + 1));
+ 
+    return 0;
+}
