@@ -6,9 +6,13 @@ int main() {
      int i,n;
      printf("enter n\n");
      scanf("%d",&n);
+     if(n==0){
+printf("0\n");
+return 0;
+}
      for(i=1;i<=n;i++){
          num=num + 1.0/(2.0*i);
      } 
-     printf("%lf",num);
+     printf("%lf",num+1);
     return 0;
 }
