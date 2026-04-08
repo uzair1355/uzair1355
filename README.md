@@ -1,5 +1,5 @@
-# 💫 About Me:
-FULL STACK DEVELOPER | MERN DEVELOPER <br>
+# About Me:
+FULL STACK DEVELOPER  <br>
 
 
 ## 🌐 Socials:
